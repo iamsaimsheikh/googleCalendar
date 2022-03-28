@@ -1,0 +1,42 @@
+export const appointments = [
+  {
+    title: "Website Re-Design Plan",
+    startDate: new Date(2018, 5, 25, 12, 35),
+    endDate: new Date(2018, 5, 25, 15, 0),
+    id: 0,
+    members: [0],
+    type: "Task",
+  },
+  {
+    title: "Book Flights to San Fran for Sales Trip",
+    startDate: new Date(2018, 5, 26, 12, 35),
+    endDate: new Date(2018, 5, 26, 15, 0),
+    id: 1,
+    members: [0],
+    type: "Task",
+  },
+  {
+    title: "Install New Router in Dev Room",
+    startDate: new Date(2018, 5, 27, 12, 35),
+    endDate: new Date(2018, 5, 27, 15, 0),
+    id: 2,
+    members: [1],
+    type: "Event",
+  },
+  {
+    title: "Approve Personal Computer Upgrade Plan",
+    startDate: new Date(2018, 5, 28, 12, 35),
+    endDate: new Date(2018, 5, 28, 15, 0),
+    id: 3,
+    members: [1],
+    type: "Event",
+  },
+  {
+    title: "Final Budget Review",
+    startDate: new Date(2018, 5, 29, 12, 35),
+    endDate: new Date(2018, 5, 29, 15, 0),
+    id: 4,
+    members: [1],
+    type: "Event",
+  },
+];
